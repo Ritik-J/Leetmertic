@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./leetmetric.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LeetMertic</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>LeetMetric</h1>
+        <h3>Find LeetCode Metric of Users with One Search</h3>
+      </div>
+      <div class="user-input">
+        <input
+          type="search"
+          placeholder="enter leetcode username"
+          id="searchInput"
+        />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div class="user-container">
+        <div class="user-summary">
+          <div class="stats">
+            <span id="easy">easy</span>
+            <h3>Easy Solved</h3>
+          </div>
+          <div class="stats">
+            <span id="medium">medium</span>
+            <h3>Medium Solved</h3>
+          </div>
+          <div class="stats">
+            <span id="hard">hard</span>
+            <h3>Hard Solved</h3>
+          </div>
+        </div>
+
+        <div class="user-stats">
+          <div class="box">
+            <p id="card1"></p>
+            <h5>Ranking</h5>
+          </div>
+          <div class="box">
+            <p id="card2"></p>
+            <h5>Acceptance Rate</h5>
+          </div>
+          <div class="box">
+            <p id="card3"></p>
+            <h5>Contribution Points</h5>
+          </div>
+          <div class="box">
+            <p id="card4"></p>
+            <h5>Total Questions</h5>
+          </div>
+          <div class="box">
+            <p id="card5"></p>
+            <h5>Total Solved</h5>
+          </div>
+          <div class="box">
+            <p id="card6"></p>
+            <h5>Reputation</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
